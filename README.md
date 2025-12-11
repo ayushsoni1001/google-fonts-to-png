@@ -1,6 +1,10 @@
 # Google Fonts → PNG
 
 <p align="center">
+  <img src="https://github.com/ayushsoni1001/google-fonts-to-png/blob/main/src/google_fonts_logo.png?raw=true" alt="Google Fonts" width="auto" height="64">
+</p>
+
+<p align="center">
   <strong>Generate beautiful PNG preview images of Google Fonts</strong>
 </p>
 

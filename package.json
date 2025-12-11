@@ -1,0 +1,41 @@
+{
+  "name": "google-fonts-to-png",
+  "version": "1.0.0",
+  "description": "Generate beautiful PNG preview images of all Google Fonts. No native dependencies required.",
+  "main": "src/index.js",
+  "bin": {
+    "fonts-to-png": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "generate": "node src/cli.js --all",
+    "generate:sample": "node src/cli.js --sample",
+    "postinstall": "npx playwright install chromium"
+  },
+  "keywords": [
+    "google-fonts",
+    "font-preview",
+    "png",
+    "image-generation",
+    "typography",
+    "fonts",
+    "headless-browser"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@remotion/google-fonts": "^4.0.155",
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.12.0",
+    "commander": "^12.1.0",
+    "ora": "^5.4.1",
+    "playwright": "^1.49.1"
+  }
+}

@@ -1,0 +1,17 @@
+# Don't publish generated files or tests
+images/
+fonts/
+*.log
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Git
+.git/
+.gitignore
+
+# Dev files
+coverage/
+
